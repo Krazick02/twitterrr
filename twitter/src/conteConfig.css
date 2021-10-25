@@ -1,0 +1,48 @@
+
+.contenido-botones{
+    background-color: white;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.fondo{
+    background-image: url(/src/fotos/fondito.png);
+    width: 100vw;
+    height:50vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenFlotante{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media (min-width: 1000px){
+    .contenido-botones{
+        background-color: white;
+        width: 70vw;
+        height: 95vh;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .fondo{
+        background-image: url(/src/fotos/fondito.png);
+        width: 30vw;
+        height:95vh;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+}
